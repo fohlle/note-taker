@@ -55,10 +55,11 @@ body{
     height: 100%;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.6);
-    width:100%;
+    width:0;
     position: fixed;
     top:0;
-    overflow-x: hidden;
+    overflow: hidden;
+    transition: 0.4s;
 }
 #overlayContent{
     background-color: white;
